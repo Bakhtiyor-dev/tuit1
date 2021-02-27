@@ -1,0 +1,157 @@
+.img{
+	height: 162px;
+	width:274px ;
+	background-image: url('../img/2.png');	
+}
+
+.content-text{
+	width: 239px;
+}
+
+header{
+	background-color: #4193C7;
+
+}
+
+.footer{
+	background-color: #4193C7;
+}
+
+.footer ul li{
+	border: none;
+	background-color: #4193C7;
+	padding:0.3rem;
+}
+
+.footer ul li a{
+	color: white;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#heading{
+	/*font-size: 22*/; 
+	color: #DDFBFF;
+	/*text-align: justify;*/
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 5px #222 ;
+}
+.active{
+	background-image: linear-gradient(#73C2F8, #4997CE);
+	height: 100px;
+
+}
+
+.navbar ul{
+	padding: 0;
+}
+.navbar{
+	padding: 0;
+
+}
+.active>a{
+	color: white !important;
+
+}
+
+
+.left-menu li{
+	background-color: #F7F7F7;
+	padding-left: 50px;
+	border-left: none;
+	border-right: none;
+}
+
+.left-menu a{
+	color: #777777;
+	letter-spacing: -1px;
+	justify-content: center;
+	text-align: center;
+}
+
+.heading{
+	font-family: Impact,AdobeInvisFont,MyriadPro-Regular;
+	color: #4593CA;
+}
+.right-menu li{
+	border-left: none;
+	border-right:none;
+}
+ #navigation{
+ 	color: #4593CA;
+ 	font-size: 22px;
+ }
+
+ .card-header{
+ 	background-color: white;
+
+ }
+.content-text{
+	text-align: left;
+	font-size: 14px;
+	line-height: 18px;
+
+}
+.copyright{
+	display: flex;
+	align-items: baseline;
+
+}
+ .date{
+ 	background-image: linear-gradient(#73C2F8, #4997CE);
+ 	border-radius: 15px;
+ 	padding: 7px;
+ 	margin-bottom:  10px;
+ 	color: white;	
+
+ }
+
+.btn{
+	border-radius: 0px;
+
+}
+
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
