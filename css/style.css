@@ -1,12 +1,12 @@
 .img{
 	height: 162px;
-	width:274px ;
+	width:300px ;
 	background-image: url('../img/2.png');	
 	margin:1rem;
 }
 
 .content-text{
-	width: 239px;
+	width: 250px;
 }
 
 header{
@@ -15,8 +15,17 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
-.card .d-flex{
+	.card .d-flex{
 		flex-direction: column;
+	}	
+
+	footer .container{
+		display: block!important;
+		text-align: center;
+	}	
+		
+	.content-text{
+		width: 350px;
 	}
 }
 
@@ -27,7 +36,7 @@ header{
 .footer ul li{
 	border: none;
 	background-color: #4193C7;
-	padding:0.3rem;
+	padding:0.2rem;
 }
 
 .footer ul li a{
