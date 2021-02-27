@@ -34,6 +34,24 @@ header{
 .footer{
 	background-color: #4193C7;
 }
+.lang{
+	top:0;
+	right: 0;
+}
+.lang span{
+	padding-top: 10px;
+}
+.uz{
+	padding: 5px;
+	background-image: linear-gradient(#63AC27,#49840B);
+	border-radius: 0 0 0 5px; 	
+}
+
+.ru{
+	padding: 5px;
+	background-image: linear-gradient(#2F8AC4,#156CBE);
+	border-radius: 0 0 5px 0; 	
+}
 
 .footer ul li{
 	border: none;
