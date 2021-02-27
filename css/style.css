@@ -18,14 +18,16 @@ header{
 	.card .d-flex{
 		flex-direction: column;
 	}	
-
+	.img{
+		width:270px ;
+	}
 	footer .container{
 		display: block!important;
 		text-align: center;
 	}	
 		
 	.content-text{
-		width: 350px;
+		width: 290px;
 	}
 }
 
