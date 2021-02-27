@@ -2,6 +2,7 @@
 	height: 162px;
 	width:274px ;
 	background-image: url('../img/2.png');	
+	margin:1rem;
 }
 
 .content-text{
@@ -11,6 +12,12 @@
 header{
 	background-color: #4193C7;
 
+}
+
+@media only screen and (max-width: 600px) {
+.card .d-flex{
+		flex-direction: column;
+	}
 }
 
 .footer{
