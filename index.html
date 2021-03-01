@@ -7,42 +7,33 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/arial-mt-std" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container ">
-
-
             <div class="d-flex header justify-content-between">
-
-                <h6 id="heading"  class="heading m-2">САЙТ КАФЕДРЫ СИСТЕМНОГО И ПРИКЛАДНОГО ПРОГРАММИРОВАНИЯ</h6>
-                		
+                <h6 id="heading" class="heading m-2">САЙТ КАФЕДРЫ СИСТЕМНОГО И ПРИКЛАДНОГО ПРОГРАММИРОВАНИЯ</h6>
                 <div class="lang row">
-                
-                		<span class="uz">
-	                        <a href="#" class="text-white">
-	                            <small>
-	                                <u>UZB</u>
-	                            </small>
-	                        </a>
-	                        <img src="img/uz.png" alt="uz">
-                    	</span>
-                
-
-                	
-                		<span class="ru">
-                        	<a href="#" class="text-white">
-                        		<small>
-                        			<u>RUS</u>
-                        		</small>
-                        	</a> 
-                        	<img src="img/rus.png" alt="ru">
-                        </span>
-                	
-
-
-                    
+                    <span class="uz">
+                        <a href="#" class="text-white">
+                            <small>
+                                <u>UZB</u>
+                            </small>
+                        </a>
+                        <img src="img/uz.png" alt="uz">
+                    </span>
+                    <span class="ru">
+                        <a href="#" class="text-white">
+                            <small>
+                                <u>RUS</u>
+                            </small>
+                        </a>
+                        <img src="img/rus.png" alt="ru">
+                    </span>
                 </div>
             </div>
         </div>
@@ -113,17 +104,21 @@
         </nav>
     </header>
     <div class="container p-2">
-        <div id="carouselExampleIndicators" class="carousel rounded slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel rounded shadow slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner ">
                 <div class="carousel-item active rounded" style="height:217px; 
                 									overflow:hidden; 
                 									background-image: url(img/slider-img.png); 
-                									background-position: center;">
+                									background-size: 100%;
+                									background-position: 0 30% ; 
+                									 ">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -182,7 +177,7 @@
                     <div class="card content border-0 shadow p-3 mb-2 bg-white rounded">
                         <div class="d-flex justify-content-between">
                             <p class="heading" style="font-size: 18px">К прогрессу - через высокие технологии</p>
-                            <span class="date heading">16 ИЮЛЯ <span class="text-dark">2016</span></span>
+                            <span class="date heading"><b>16</b> ИЮЛЯ <span class="text-dark"><b>2016</b></span></span>
                         </div>
                         <div class="d-flex">
                             <div class="content-text"><a href="#">«Роль современных информационно-коммуникационных технологий (ИКТ) в модернизации государственного управления и демократизации общества»</a>- такова была тема международного «круглого стола», прошедшего в Ташкенте.</div>
@@ -192,7 +187,7 @@
                     <div class="card content border-0 shadow p-3 mb-2 bg-white rounded h-auto">
                         <div class="d-flex justify-content-between">
                             <p class="heading" style="font-size: 18px">Выставка современных технологий и разработок</p>
-                            <span class="date heading">16 ИЮЛЯ <span class="text-dark">2016</span></span>
+                            <span class="date heading"><b>16</b> ИЮЛЯ <span class="text-dark"><b>2016</b></span></span>
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="content-text"><a href="#">В Фергане началась международная выставка "Инфраструктура Узбекистана: Ферганская долина - 2015".</a>
@@ -203,23 +198,23 @@
                     <div class="card content border-0 shadow p-3 mb-2 bg-white rounded h-auto">
                         <div class="d-flex justify-content-between">
                             <p class="heading" style="font-size: 18px">К прогрессу – через высокие технологии</p>
-                            <span class="date heading">16 ИЮЛЯ <span class="text-dark">2016</span></span>
+                            <span class="date heading"><b>16</b> ИЮЛЯ <span class="text-dark"><b>2016</b></span></span>
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="content-text"><a href="#">«Роль современных информационно-коммуникационных технологий (ИКТ) в модернизации государственного управления и демократизации общества»</a> - такова была тема международного «круглого стола», прошедшего в Ташкенте.</div>
                             <div class="img"></div>
                         </div>
                     </div>
-                    <a href="#">Еще статьи...</a>
+                    <a href="#" class="arial">Еще статьи...</a>
                     <ul>
-                        <a href="#" class="text-decoration-underlined">
+                        <a href="#" class="text-decoration-underlined arial">
                             <li><u>Начало нового семестра в 2014/2015</u></li>
                         </a>
-                        <a href="#">
+                        <a href="#" class="arial">
                             <li><u>Результаты ОММО-2015</u></li>
                         </a>
                         <br>
-                        <ul class="d-flex justify-content-center" style="list-style: none;">
+                        <ul class="d-flex justify-content-center arial" style="list-style: none;">
                             <li><a href="#" class="mr-2">1</a></li>
                             <li><a href="#" class="mr-2">2</a></li>
                             <li><a href="#" class="mr-2"><u>3</u></a></li>
@@ -237,11 +232,11 @@
                 <!-- end-Content -->
                 <div class="col p-0">
                     <div id="accordion">
-                        <p class="text-left ml-4 headingFour heading " id="navigation">ИНФОРМАЦИЯ</p>
+                        <p class="text-left ml-4 headingFour heading" id="navigation">ИНФОРМАЦИЯ</p>
                         <ul class="list-group right-menu p-0">
                             <li class="list-group-item p-0">
                                 <a href="#" class="text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <i class="fa fa-plus-square fa-lg"></i>
+                                    <i class="fa fa-plus-square fa-lg"> </i>
                                     Расписание
                                 </a>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -361,9 +356,17 @@
                     <a href="#" class="fa fa-yahoo"></a>
                     <a href="#" class="fa fa-reddit"></a>
                     <a href="#" class="fa fa-rss"></a>
-                </div>
+                </div>	
             </div>
-            <small class="text-white">Copyright &#169; Bakhtiyor</small>
+		<img class="footer-image" src="img/uz-flag.png" >
+         <!--    <div class="img-b">asdas</div> -->
+          
+    <!--         <img class="footer-image" src="img/footer-back.png" alt="footer-back">  -->
+
+            <div class="d-flex align-items-center">
+                <img src="img/footer-logo.png" class="footer-logo" alt="footer-logo">
+                <small class="text-white ml-4">создание сайта: <br> <u style='cursor: pointer;'>веб студия MD.UZ</u></small>
+            </div>
         </div>
     </footer>
     <script src="js/jquery-3.3.1.slim.min.js"></script>

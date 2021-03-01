@@ -9,6 +9,11 @@
 	width: 250px;
 }
 
+nav .dropdown-toggle::after{
+	display: block;
+	margin:10px auto;
+}
+
 header{
 	background-color: #4193C7;
 
@@ -31,12 +36,22 @@ header{
 	}
 }
 
+
+.footer-image{
+	position: absolute;
+	opacity: 0.1;
+	
+	height: 200px;
+}
+
+
 .footer{
 	background-color: #4193C7;
 }
 .lang{
 	top:0;
 	right: 0;
+	font-family: Tahoma,AdobeInvisFont,MyriadPro-Regular;
 }
 .lang span{
 	padding-top: 10px;
@@ -59,26 +74,62 @@ header{
 	padding:0.2rem;
 }
 
+.img-b{
+	
+	background-repeat: no-repeat;
+	width:300px;
+	
+	background-image: url('../img/footer-back.png') ;
+
+
+}
+
 .footer ul li a{
 	color: white;
 	font-size: 14px;
 	text-decoration: underline;
 }
+
 #heading{
-	/*font-size: 22*/; 
 	color: #DDFBFF;
-	/*text-align: justify;*/
 	letter-spacing: 1px;
-	text-shadow: 2px 2px 5px #222 ;
+	text-shadow: 2px 2px 5px #222;
 }
-.active{
-	background-image: linear-gradient(#73C2F8, #4997CE);
+
+
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+header{
+	height: 160px;
+	z-index: 1;
+}
+nav{
+	z-index: 2;
+}
+
+nav .active{
+	background-image: linear-gradient(#75C5FA, #4390C8);
 	height: 100px;
 
 }
 
 .navbar ul{
 	padding: 0;
+	font-family: Cuprum;
+}
+
+.arial{
+	font-family: Arial;
+}
+
+.dropright{
+	font-family: Cuprum;
+	font-size: 18px;
 }
 .navbar{
 	padding: 0;
@@ -108,6 +159,12 @@ header{
 	font-family: Impact,AdobeInvisFont,MyriadPro-Regular;
 	color: #4593CA;
 }
+.dropright .dropdown-toggle::after {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform:translateY(-50%);
+}
 .right-menu li{
 	border-left: none;
 	border-right:none;
@@ -117,6 +174,7 @@ header{
  	font-size: 22px;
  }
 
+
  .card-header{
  	background-color: white;
 
@@ -125,6 +183,7 @@ header{
 	text-align: left;
 	font-size: 14px;
 	line-height: 18px;
+	font-family: Arial;
 
 }
 .copyright{
@@ -132,21 +191,38 @@ header{
 	align-items: baseline;
 
 }
+.footer-logo{
+	width: 36px;
+	height: 39px;
+}
+.text-dark{
+	color: #10354E!important;
+}
+
  .date{
  	background-image: linear-gradient(#73C2F8, #4997CE);
  	border-radius: 15px;
- 	padding: 7px;
+ 	padding: 5px 15px;
  	margin-bottom:  10px;
  	color: white;	
-
+ 	font-family: Cuprum;
  }
+
+b{
+	font-weight: normal;
+	font-family: Impact;
+}
 
 .btn{
 	border-radius: 0px;
 
 }
 
-
+.right-menu{
+	font-family: Cuprum;
+	font-size: 18px;
+	color: #777777;
+}
  .fa {
   padding: 20px;
   font-size: 30px;
