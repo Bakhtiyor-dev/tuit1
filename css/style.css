@@ -11,14 +11,12 @@ header{
 	z-index: 1;
 }
 
-nav{
-	margin-top: 8px; 
-	z-index: 2;
-}
+
 #heading{
 	color: #DDFBFF;
+	font-size: 22px;
 	letter-spacing: 1px;
-	text-shadow: 2px 2px 5px #222;
+	text-shadow: 2px 2px 2px #222;
 }
 .lang{
 	top:0;
@@ -46,6 +44,10 @@ nav{
 
 
 /*navbar*/
+nav{
+	margin-top: 8px; 
+	z-index: 4;
+}
 nav .dropdown-toggle::after{
 	display: block;
 	margin:10px auto;
@@ -95,6 +97,11 @@ nav .active{
   height: 15px;
   border-radius: 100%;
   background-color: white;
+
+
+}
+.carousel{
+	z-index: 1;
 }
 
 .carousel-indicators .active {
